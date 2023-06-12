@@ -9,3 +9,9 @@
 ## How to use
 ### Train a tagger
 在taggerTrain.py中，使用到的训练集来自于MATRES，存放到了TaggerTrainData中
+
+
+## Further
+目前该项目还有需要改进的地方
+1. 可以尝试对Roberta的预训练模型进行一个简单训练
+2. 
