@@ -8,7 +8,11 @@
 
 ## How to use
 ### Train a tagger
-在taggerTrain.py中，使用到的训练集来自于MATRES，存放到了TaggerTrainData中
+在taggerTrain.py中，使用到的训练集来自于MATRES，存放到了TaggerTrainData中，最后训练的模型保存为了Extraction_all.pth
+
+
+
+### Train a classifier
 
 
 ## Further
