@@ -6,5 +6,6 @@
 2. 训练一个事件标记器tagger，对于一个原始文本，tagger可以标注出文本中的事件
 3. 训练一个事件对分类器classifier，将标注好事件的文本中的事件两两组对，classifier可以判断每个事件对的时序关系，比如before，after，simultaneous。
 
-## 
-
+## How to use
+### Train a tagger
+在taggerTrain.py中，使用到的训练集来自于MATRES，存放到了TaggerTrainData中
