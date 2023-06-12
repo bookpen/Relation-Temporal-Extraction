@@ -1,3 +1,5 @@
+# 在下还没有完善这个仓库，诶嘿，相信不久之后就可以完善了
+
 q0:关于eiid？
 
 A：在 TempEval-3 任务中，“eiid”是指事件信息标识符（Event Instance ID），用于唯一标识数据集中的每个事件实例。每个事件实例都具有一个唯一的eiid。
@@ -63,3 +65,7 @@ confidence = {
 ### 示例网站来自
 
 [StructTempRel-EMNLP17/NYT20000406.0002.tml at master · qiangning/StructTempRel-EMNLP17 (github.com)](https://github.com/qiangning/StructTempRel-EMNLP17/blob/master/data/TempEval3/Training/TBAQ-cleaned/AQUAINT/NYT20000406.0002.tml#L23)
+
+### 数据集示意
+![捕获](https://github.com/bookpen/Relation-Temporal-Extraction/assets/80585368/93128a30-9679-4e1a-8f07-40ea76e8e70f)
+
