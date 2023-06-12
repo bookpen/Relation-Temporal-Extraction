@@ -12,6 +12,12 @@
 
 ## How to use
 
+### Necessary Download
+你需要下载一个Roberta预训练模型文件，MATRES数据集，以及Tempeval3的数据集
+MATRES：https://github.com/qiangning/MATRES 新建并存放到TaggerTrainData文件夹下
+Tempeval3：https://github.com/qiangning/StructTempRel-EMNLP17/tree/master/data/TempEval3/Training 新建并存放到ClassifierTrainData文件夹下
+Roberta：https://huggingface.co/roberta-base/tree/main 新建并存放到model文件夹下
+
 ### Train a tagger
 
 在**taggerTrain.py**中，使用到的训练集来自于MATRES，存放到了TaggerTrainData中，最后训练的模型保存在Extraction_all.pth。
