@@ -93,7 +93,9 @@ for FILE in data_list:
                  "".join(text_list[s2_pos[0]+1:s4_pos[0]])+\
                  text_list[s4_pos[0]][:s4_pos[1]]
             s5 = text_list[s4_pos[0]][s4_pos[1]+s4_pos[2]:]
-
+            if s2[0]!=" " or s4[0]!=" ":
+                # print(s2,s4,"ERR")
+                continue
             append_dict["S1"]=s1
             append_dict["S2"]=s2
             append_dict["S3"]=s3
